@@ -53,14 +53,6 @@
     >
   {%- endif -%}
 
-  <p class="line-item-property__field">
-  <label>ギフト希望の方はご希望のメッセージカードを選択してください</label><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="HappyBirthDay"> <span>HappyBirthDay</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="Congratulations!"> <span>Congratulations!</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="おめでとうございます！"> <span>おめでとうございます！</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="内祝"> <span>内祝</span><br>
-</p>
-
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
