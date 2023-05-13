@@ -135,8 +135,9 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
+    
     <div class="agree-check">
-      <lavel><input type="check box" name="agree" vallue="chrcked" class"js_chk_agree">
+      <lavel><input type="checkbox" name="agree" vallue="chrcked" class"js_chk_agree">
       <a href="/pages/pruvacyoilicy">
         プライバシーポリシー</a>に同意する </lavel>
     </div>
@@ -147,7 +148,6 @@
    <input type="hidden" name="customer[tags]" value="新規"/> 
   {%- endform -%}
 </div>
-
               <script>
                 $(function(){
                     let cls_disabled='js_btn_disabled';
