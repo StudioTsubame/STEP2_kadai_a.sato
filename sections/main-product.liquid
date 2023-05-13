@@ -53,13 +53,6 @@
     >
   {%- endif -%}
   
-  <p class="line-item-property__field">
-  <label>ギフト希望の方はご希望のメッセージカードを選択してください</label><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="HappyBirthDay"> <span>HappyBirthDay</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="Congratulations!"> <span>Congratulations!</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="おめでとうございます！"> <span>おめでとうございます！</span><br>
-  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="内祝"> <span>内祝</span><br>
-</p>
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
@@ -105,6 +98,13 @@
                   price_class: 'price--large'
                 -%}
               </div>
+              <p class="line-item-property__field">
+  <label>ギフト希望の方はご希望のメッセージカードを選択してください</label><br>
+  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="HappyBirthDay"> <span>HappyBirthDay</span><br>
+  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="Congratulations!"> <span>Congratulations!</span><br>
+  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="おめでとうございます！"> <span>おめでとうございます！</span><br>
+  <input type="radio" name="properties[ギフト希望の方はご希望のメッセージカードを選択してください]" value="内祝"> <span>内祝</span><br>
+</p>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
                   {%- if shop.taxes_included -%}
