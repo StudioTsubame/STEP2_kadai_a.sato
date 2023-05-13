@@ -85,7 +85,7 @@
         "template--18991787704595__304c5fa0-f763-4b61-b4c3-120756a71e6d-1683981320f1a9fa1c-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ブランケット"
           }
         }
       },
@@ -95,10 +95,10 @@
         "template--18991787704595__304c5fa0-f763-4b61-b4c3-120756a71e6d-1683981320f1a9fa1c-2"
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
+        "title": "おすすめコレクション",
+        "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
