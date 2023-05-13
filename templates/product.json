@@ -1,5 +1,35 @@
 {
   "sections": {
+    "240504d4-58c4-4a3e-9fd8-07c74a9fc938": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18991787507987__240504d4-58c4-4a3e-9fd8-07c74a9fc938-1683986282b73f6eaa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ご購入の前にご確認",
+            "heading_size": "h2"
+          }
+        },
+        "template--18991787507987__240504d4-58c4-4a3e-9fd8-07c74a9fc938-1683986282b73f6eaa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>電源は日本国内のみで使用可能です。海外でご使用の際は変換器を別途お買い求めください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18991787507987__240504d4-58c4-4a3e-9fd8-07c74a9fc938-1683986282b73f6eaa-0",
+        "template--18991787507987__240504d4-58c4-4a3e-9fd8-07c74a9fc938-1683986282b73f6eaa-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -170,6 +200,7 @@
     }
   },
   "order": [
+    "240504d4-58c4-4a3e-9fd8-07c74a9fc938",
     "main",
     "related-products",
     "f0fd9062-f2e3-4287-a07c-8c7491f8f647",
