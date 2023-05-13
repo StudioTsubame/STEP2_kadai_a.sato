@@ -142,13 +142,23 @@
         プライバシーポリシー</a>に同意する </lavel>
     </div>
             <button class="js_btn_agree">
-    <button>
       {{ 'customer.register.submit' | t }}
     </button>
    <input type="hidden" name="customer[tags]" value="新規"/> 
   {%- endform -%}
 </div>
-            
+              <script>
+                $(function(){
+                  let cls_disabled='js_btn_disabled';
+                  let btn_register=$('.js_btn_agree');
+                  btn_register.addClsss(cls_disablrd);
+                  $('.js_chk_agree').on('change',funcion()
+                   {let self = $(this);if(self.prop('cheked'))
+                  {btn_register.removeClasss(cls_disabled);}
+                    else{btn_register.addClass(cls_disablred);}   
+                   });
+                });
+              </script>
 
 {% schema %}
 {
