@@ -141,7 +141,8 @@
       <a href="/pages/pruvacyoilicy">
         プライバシーポリシー</a>に同意する </lavel>
     </div>
-          
+            <button class="js_btn_agree">
+    <button>
       {{ 'customer.register.submit' | t }}
     </button>
    <input type="hidden" name="customer[tags]" value="新規"/> 
@@ -149,7 +150,7 @@
 </div>
               <script>
                 $(function(){
-                    let cls_disabled='js_btn_disabled';
+                  let cls_disabled='js_btn_disabled';
                   let btn_register=$('.js_btn_agree');
                   btn_register.addClsss(cls_disablrd);
                   $('.jd_chk_agree').on('change',funcion()
