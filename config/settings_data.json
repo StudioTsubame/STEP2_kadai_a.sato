@@ -1,7 +1,8 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/rogo.png",
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "favicon": "shopify:\/\/shop_images\/rogo.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -143,15 +144,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "6897675550240258559": {
-        "type": "shopify:\/\/apps\/promolayer\/blocks\/app-embed\/e4a9128f-b151-4feb-ad9e-ef8fbb63bf07",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {

@@ -27,6 +27,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/rogo.png",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
