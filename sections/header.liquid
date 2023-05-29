@@ -561,10 +561,8 @@
         </nav>
       {%- endif -%}
     {%- endif -%}
-    {% if customer %}
-
-    <p>{{ customer.name }}様</p>
-{% endif %}
+    
+  
 
 
     {%- if section.settings.logo_position == 'middle-center' -%}
@@ -1107,3 +1105,7 @@
   ]
 }
 {% endschema %}
+  {% if customer %}
+
+    <p>{{ customer.name }}様</p>
+{% endif %}
