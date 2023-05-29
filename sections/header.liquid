@@ -152,9 +152,7 @@
   endfor
 -%}
   
-{% if customer %}
-    <p>{{ customer.name }}様</p>
-{% endif %}
+
 
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
@@ -409,6 +407,10 @@
                         </svg>
                       </button>
                     </div>
+
+                            {% if customer %}
+    <p>{{ customer.name }}様</p>
+{% endif %}
 
                     {%- if settings.predictive_search_enabled -%}
                       <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
