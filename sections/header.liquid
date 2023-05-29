@@ -31,9 +31,7 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
- {% if customer %}
- <p>{{ customer.name }}様</p>
-{% endif %}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -94,7 +92,9 @@
     }
   }
 </style>
-
+ {% if customer %}
+ <p>{{ customer.name }}様</p>
+{% endif %}
 {%- style -%}
   .header {
     padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
