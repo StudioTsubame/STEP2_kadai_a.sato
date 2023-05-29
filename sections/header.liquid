@@ -416,9 +416,7 @@
                           </svg>
                         </div>
                       </div>
- {% if customer %}
-    <p>{{ customer.name }}様</p>
-{% endif %}
+
                       <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
                     {%- endif -%}
                   </form>
@@ -427,6 +425,9 @@
               {%- else -%}
                 </search-form>
               {%- endif -%}
+       {% if customer %}
+    <p>{{ customer.name }}様</p>
+{% endif %}
               <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
                 <svg class="icon icon-close" aria-hidden="true" focusable="false">
                   <use href="#icon-close">
