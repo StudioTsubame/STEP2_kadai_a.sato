@@ -1,4 +1,6 @@
-
+     {% if customer %}
+    <p>{{ customer.name }}様</p>
+{% endif %}
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -425,9 +427,7 @@
               {%- else -%}
                 </search-form>
               {%- endif -%}
-       {% if customer %}
-    <p>{{ customer.name }}様</p>
-{% endif %}
+  
               <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
                 <svg class="icon icon-close" aria-hidden="true" focusable="false">
                   <use href="#icon-close">
