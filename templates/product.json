@@ -13,7 +13,7 @@
         "template--18991787507987__240504d4-58c4-4a3e-9fd8-07c74a9fc938-1683986282b73f6eaa-1": {
           "type": "text",
           "settings": {
-            "text": "<p>電源は日本国内のみで使用可能です。海外でご使用の際は変換器を別途お買い求めください。<\/p>"
+            "text": "<p>品質管理には十分気をつけていますが、ご使用の前にパッチテストをおすすめしています。<\/p>"
           }
         }
       },
@@ -145,7 +145,6 @@
         "template--18938231095571__f0fd9062-f2e3-4287-a07c-8c7491f8f647-16836825595fb916eb-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/jonathan-borba-n1B6ftPB5Eg-unsplash.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -173,27 +172,6 @@
     },
     "16836870820bc0dced": {
       "type": "apps",
-      "blocks": {
-        "dbb81bce-272a-4b57-8c01-9296dc5c5f2c": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        },
-        "301d4f70-55e4-41ae-8516-f71824e019b9": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        }
-      },
-      "block_order": [
-        "dbb81bce-272a-4b57-8c01-9296dc5c5f2c",
-        "301d4f70-55e4-41ae-8516-f71824e019b9"
-      ],
       "settings": {
         "include_margins": true
       }
