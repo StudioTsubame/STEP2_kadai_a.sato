@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "ヒトトキ",
+            "heading": "あなたの素肌を本気で守りたい",
             "heading_size": "h1"
           }
         },
@@ -27,9 +27,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/25763606_m.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
