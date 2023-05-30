@@ -13,9 +13,9 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "商品一覧",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -27,8 +27,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rogo.png",
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/top1.jpg",
+        "image_2": "shopify:\/\/shop_images\/top2.jpg",
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
